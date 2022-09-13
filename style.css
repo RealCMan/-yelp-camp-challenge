@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:300,400,500,700,900&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F9F6F1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grey-text {
+    color: grey;
+}
+
+.top-logo-bar {
+    margin: 30px 200px;
+}
+
+.logo-image {
+    margin: 30px 0px 30px 200px;
+}
+
+.main-camp-image {
+    float: right;
+}
+
+.main-information {
+    margin: 30px 200px;
+    width: 400px;
+}
+
+.main-information h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.main-information {
+    font-size: 1.2rem;
+}
+
+li {
+    padding: 8px 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.checkmark-list {
+    margin: 5px 0px 10px 0px;
+}
+
+.view-camp-btn {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding:8px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.partners {
+    margin: 20px 0px;
+}
+
+@media screen and (max-width: 700px) {
+    .logo-image {
+        margin: 30px 0px 30px 50px;
+    }
+    .top-logo-bar {
+        margin: 30px 50px;
+    }
+    .main-information {
+        margin: 420px 50px;
+    }
+}
