@@ -31,6 +31,11 @@ ul {
     float: right;
 }
 
+.main-camp-image img {
+    height: 110vh;
+    width: 42vw;
+}
+
 .main-information {
     margin: 30px 200px;
     width: 400px;
@@ -68,13 +73,22 @@ li img {
     padding:8px 20px;
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.view-camp-btn:hover {
+    color: #f9f6f1dc;
 }
 
 .partners {
     margin: 20px 0px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
+    .main-camp-image img {
+        width: 100vw;
+        height: 40vh;
+    }
     .logo-image {
         margin: 30px 0px 30px 50px;
     }
