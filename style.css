@@ -8,6 +8,9 @@
 body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+}
+
+.landing-body, .welcome-section {
     background-color: #F9F6F1;
 }
 
@@ -19,11 +22,7 @@ ul {
     color: grey;
 }
 
-.top-logo-bar {
-    margin: 30px 200px;
-}
-
-.logo-image {
+.top-bar .logo-image {
     margin: 30px 0px 30px 200px;
 }
 
@@ -62,18 +61,18 @@ li img {
     margin: 5px 0px 10px 0px;
 }
 
-.view-camp-btn {
+.black-btn {
     border: none;
     background-color: black;
     color: white;
     border-radius: 5px;
     padding:8px 20px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
 }
 
-.view-camp-btn:hover {
+.black-btn:hover {
     color: #f9f6f1dc;
 }
 
@@ -81,19 +80,123 @@ li img {
     margin: 20px 0px;
 }
 
+/* landing page style ends */
+
+.top-nav-bar {
+    margin: 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav-bar a {
+    text-decoration: none;
+    margin: 0px 30px;
+}
+
+.nav-leftside, .nav-rightside {
+    display: flex;
+    align-items: center;
+}
+
+.main-page-container {
+    margin: 30px 200px;
+}
+
+.welcome-section {
+    border-radius: 5px;
+    width: 100%;
+}   
+
+.welcome-info-container {
+    padding: 70px 50px;
+    width: 40%;
+    font-size: 1.0rem;
+}
+
+.welcome-info-container h1{
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+} 
+
+.welcome-info-container input {
+    background-image:url("Assets/SearchIcon.svg");
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+    padding: 6px 25px;
+}
+
+.welcome-info-container input::placeholder {
+    color: grey;
+}
+
+.welcome-info-container input {
+    color: #595959;
+    font-size:1.2rem;
+    border: solid grey 1px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+.welcome-info-container .search-bar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px; 
+}
+
+.camp-info-container {
+    margin: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.camp-info-box {
+    border: solid 1px rgba(128, 128, 128, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 331px;
+    margin-bottom: 50px;
+}
+
+.camp-info-box p {
+    padding: 5px 0px;
+}
+
+.view-camp-btn {
+    width: 331px;
+    border: solid 1px rgba(128, 128, 128, 0.2);
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 0px;
+    font-size: 1.0rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 800px) {
     .main-camp-image img {
         width: 110vw;
         height: 40vh;
     }
-    .logo-image {
-        margin: 30px 0px 30px 50px;
-    }
-    .top-logo-bar {
-        margin: 30px 50px;
-    }
     .main-information {
         margin: 400px 50px;
         width: 300px;
+    }
+    .top-bar {
+        margin: 30px 0px 30px -150px;
+    }
+
+    .main-page-container, .top-nav-bar {
+        margin: 30px 50px;
+    }
+    .welcome-info-container .search-bar {
+        flex-direction: column;
+    }
+    .welcome-info-container input {
+        width: 100%;
     }
 }
