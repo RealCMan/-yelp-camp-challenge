@@ -38,7 +38,6 @@ ul {
 
 .main-information {
     margin: 30px 200px;
-    width: 400px;
 }
 
 .main-information h1{
@@ -86,7 +85,7 @@ li img {
 
 @media screen and (max-width: 800px) {
     .main-camp-image img {
-        width: 100vw;
+        width: 110vw;
         height: 40vh;
     }
     .logo-image {
@@ -96,6 +95,6 @@ li img {
         margin: 30px 50px;
     }
     .main-information {
-        margin: 420px 50px;
+        margin: 400px 50px;
     }
 }
