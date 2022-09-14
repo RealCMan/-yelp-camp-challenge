@@ -38,15 +38,13 @@ ul {
 
 .main-information {
     margin: 30px 200px;
+    font-size: 1.2rem;
+    width: 400px;
 }
 
 .main-information h1{
     font-weight: 700;
     font-size: 3rem;
-}
-
-.main-information {
-    font-size: 1.2rem;
 }
 
 li {
@@ -96,5 +94,6 @@ li img {
     }
     .main-information {
         margin: 400px 50px;
+        width: 300px;
     }
 }
