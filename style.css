@@ -149,16 +149,18 @@ li img {
 .camp-info-container {
     margin: 50px 0px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+
 
 .camp-info-box {
     border: solid 1px rgba(128, 128, 128, 0.2);
     border-radius: 5px;
     padding: 10px;
     width: 331px;
-    margin-bottom: 50px;
+    margin: 50px 50px;
 }
 
 .camp-info-box p {
